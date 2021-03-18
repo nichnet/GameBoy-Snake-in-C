@@ -2,6 +2,6 @@
 Conways Game of Life written in C for Gameboy
 
 
-This is Conway's Game of Life written in C for the Gameboy. 
+This is Conway's Game of Life written in C for the Gameboy and compiled with GBDK. 
 
 It is sitll a WIP. 

@@ -1,6 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void init();
+void loop();
+void checkInput();
+void updateSwitches();
+
+void tickPlayer();
+void respawnFood();
+void moveSprite(int, int, int);
+void movePlayer(int, int);
+
 void increaseTailLength(int);
 void decreaseTailLength(int);
 void printArr();
@@ -21,10 +31,7 @@ enum Direction {
     DOWN
 };
 
-void init();
-void loop();
-void checkInput();
-void updateSwitches();
+
 
 
 struct Position *tail;
